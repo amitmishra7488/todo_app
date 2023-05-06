@@ -1,0 +1,121 @@
+.container {
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 0 1rem;
+  }
+  .container > h1{
+    text-align: center;
+    font-family: cursive;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  form input[type='text'] {
+    flex-grow: 1;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 2px solid #007bff;
+    border-radius: 0.5rem;
+  }
+  
+  form button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+  
+  form button:hover {
+    background-color: #0069d9;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  li input[type='checkbox'] {
+    margin-right: 1rem;
+    cursor: pointer;
+    background-color: #04AA6D;
+    
+  }
+  
+  li span {
+    flex-grow: 1;
+  }
+  
+  li del {
+    flex-grow: 1;
+    color: #999;
+    text-decoration: line-through;
+  }
+  
+  li div {
+    margin-left: auto;
+    display: flex;
+  }
+  
+ .delete-btn {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  .edit-btn {
+    background-color: #04AA6D;
+    border: none;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .edit-btn:hover {
+    background-color: #047c50;
+  }
+  
+  @media (max-width: 480px) {
+    form {
+      flex-direction: column;
+    }
+    form input[type='text'] {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+    form button {
+      width: 100%;
+    }
+  }
+
+  
